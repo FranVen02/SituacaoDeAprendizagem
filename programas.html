@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgs/img-icon.png" type="image/png">
+
+    <script src="1script.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>ChronoTech - Programas</title>
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <!-- ABA DE NAVEGAÇÃO-->
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="eletroeletronica.html">Eletroeletrônica</a>
+
+            <a href="fluxogramas.html">Algoritmos e Fluxogramas</a>
+            <a href="banco-de-dados.html">Banco de Dados</a>
+            <a href="redes.html">Redes</a>
+            
+        </nav>
+
+        <!-- ÍCONE DO SITE -->
+        <figure>
+
+            <img src="./imgs/img-icon.png">
+
+        </figure>
+    </header>
+
+    <!-- TÍTULO -->
+    <div id="div-title">
+
+        <h1>Programas</h1>
+        <h2>de ordenação</h2>
+
+    </div>
+
+    <!-- PRIMEIRO CORPO -->
+    <main id="main-first">
+
+        <br>
+
+        <!-- ALGORITMO INSERTION SORT -->
+        <section class="alg-section">
+
+            <p class="text-main">Aqui estão alguns programas de ordenação de arrays que foram desenvolvidos pela empresa.</p>
+
+            
+            <!-- GERAÇÃO DE MATRIZ -->
+            <div class="sort-div">
+
+                <p class="subtitle-main">Método Insertion Sort</p>
+
+                <p class="text-main gerar-div">Clique no botão "Gerar"<br>e uma matriz aleatória será gerada.</p>
+                <button onclick="generateArray1()">Gerar</button>
+    
+                <div id="respostaIns1"></div>
+
+            </div>
+
+            <!-- ORDENAÇÃO CRESCENTE -->
+            <div class="sort-div">
+
+                <p class="text-main">Clique no botão "Ordenar"<br>e a matriz gerada será ordenada.</p>
+                <button onclick="insertionSort()">Ordenar</button>
+    
+                <div id="respostaIns2"></div>
+
+            </div>
+
+            <!-- ORDENAÇÃO DECRESCENTE -->
+            <div class="sort-div">
+
+                <p class="text-main">Clique no botão "Ordenar Inv."<br>e a matriz gerada será ordenada inversamente.</p>
+                <button onclick="reverseInsertionSort()">Ordenar Inv.</button>
+    
+                <div id="respostaIns3"></div>
+
+            </div>
+
+        </section>
+
+        <!-- ALGORITMO SELECTION SORT -->
+        <section class="alg-section">
+
+            
+            <!-- GERAÇÃO DE MATRIZ -->
+            <div class="sort-div">
+
+                <p class="subtitle-main">Método Selection Sort</p>
+                
+                <p class="text-main gerar-div">Clique no botão "Gerar"<br>e uma matriz aleatória será gerada.</p>
+                <button onclick="generateArray2()">Gerar</button>
+    
+                <div id="respostaSele1"></div>
+
+            </div>
+
+            <!-- ORDENAÇÃO CRESCENTE -->
+            <div class="sort-div">
+
+                <p class="text-main">Clique no botão "Ordenar"<br>e a matriz gerada será ordenada.</p>
+                <button onclick="selectionSort()">Ordenar</button>
+    
+                <div id="respostaSele2"></div>
+
+            </div>
+
+            <!-- ORDENAÇÃO DECRESCENTE -->
+            <div class="sort-div">
+
+                <p class="text-main">Clique no botão "Ordenar Inv."<br>e a matriz gerada será ordenada inversamente.</p>
+                <button onclick="reverseSelectionSort()">Ordenar Inv.</button>
+    
+                <div id="respostaSele3"></div>
+
+            </div>
+
+        </section>
+
+        <!-- ALGORITMO BUBBLE SORT -->
+        <section class="alg-section">
+            
+            <!-- GERAÇÃO DE MATRIZ -->
+            <div class="sort-div">
+
+                <p class="subtitle-main">Método Bubble Sort</p>
+
+                <p class="text-main gerar-div">Clique no botão "Gerar"<br>e uma matriz aleatória será gerada.</p>
+                <button onclick="generateArray3()">Gerar</button>
+    
+                <div id="respostaBubb1"></div>
+
+            </div>
+
+            <!-- ORDENAÇÃO CRESCENTE -->
+            <div class="sort-div">
+
+                <p class="text-main">Clique no botão "Ordenar"<br>e a matriz gerada será ordenada.</p>
+                <button onclick="bubbleSort()">Ordenar</button>
+    
+                <div id="respostaBubb2"></div>
+
+            </div>
+
+            <!-- ORDENAÇÃO DECRESCENTE -->
+            <div class="sort-div">
+
+                <p class="text-main">Clique no botão "Ordenar Inv."<br>e a matriz gerada será ordenada inversamente.</p>
+                <button onclick="reverseBubbleSort()">Ordenar Inv.</button>
+    
+                <div id="respostaBubb3"></div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <!-- SEGUNDO CORPO -->
+    <main>
+
+        <section id="vid-section">
+
+            <p class="subtitle-main-second">Vídeo explicativo</p>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/maGWOzVx4lU?si=dpnzJAqMFMgvzMD3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+        <section id="logiclinks-section">
+
+            <p class="subtitle-main-second">Outros Programas-Exemplo</p>
+
+                <!-- EXEMPLO LAÇO FOR -->
+                <div class="prog-div">
+                    
+                    <p class="subtitle-main-second">Exemplo de laço FOR</p>
+                    <p class="text-prog">Digite um número, clique no botão "Gerar" e uma array desta largura será gerada.</p>
+                    
+                    <input type="text" id="numFor" placeholder="número">
+                    <button onclick="forLinkExample()" class="logiclinks-button">Gerar</button>
+                    
+                    <div id="respostaFor"></div>
+                    
+                </div>
+
+                <!-- EXEMPLO LAÇO IF -->
+                <div class="prog-div">
+                    
+                    <p class="subtitle-main-second">Exemplo de laço IF-ELSE</p>
+                    <p class="text-prog">Digite sua idade, aperte o botão "Filtrar" e será calculado a que faixa etária você pertence.</p>
+                    
+                    <input type="text" id="numIf" placeholder="idade">
+                    <button onclick="ifLinkExample()" class="logiclinks-button">Filtrar</button>
+                    
+                    <div id="respostaIf"></div>
+                    
+                </div>
+
+                <!-- EXEMPLO LAÇO WHILE -->
+                <div class="prog-div">
+
+                    <p class="subtitle-main-second">Exemplo de laço WHILE</p>
+                    <p class="text-prog">Digite um número, aperte o botão "Somar" e será calculado a soma de seus antecessores.</p>
+                    
+                    <input type="text" id="numWhile" placeholder="número">
+                    <button onclick="whileLinkExample()" class="logiclinks-button">Somar</button>
+                    
+                    <div id="respostaWhile"></div>
+
+                </div> 
+
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="footer_div">
+
+            <h3>ChronoTech</h3>
+
+            <p class="footer_p">Site construído pelo técnico em desenvolvimento de sistemas João Francisco Luchtenberg Ventura. Ao lado, as redes sociais da empresa sócia Sesi Senai e o repositório git hub onde o código do site foi publicado.</p>
+
+        </div>
+        <div class="footer_div" id="footer-social-div">
+
+            <h3>Redes Sociais</h3>
+            
+            <figure>
+
+                <a href="https://www.facebook.com/SenaiTijucas/?locale=ro_RO"><img src="./imgs/0img-face.png" class="img-rodape"></a>
+                <a href="https://www.instagram.com/senai.tijucas/"><img src="./imgs/0img-insta.png" class="img-rodape"></a>
+                <a href="https://github.com/FranVen02/SituacaoDeAprendizagem"><img src="./imgs/0img-github.png" id="img-hub"></a>
+
+            </figure>
+
+        </div>
+    </footer>
+
+</body>
+</html>

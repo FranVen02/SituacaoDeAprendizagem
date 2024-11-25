@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgs/img-icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>ChronoTech - Banco de Dados</title>
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <!-- ABA DE NAVEGAÇÃO-->
+        <nav>
+
+            <a href="index.html">Home</a>
+            <a href="eletroeletronica.html">Eletroeletrônica</a>
+            <a href="programas.html" id="prog-a">Programas</a>
+            <a href="fluxogramas.html">Algoritmos e Fluxogramas</a>
+            <a href="redes.html">Redes</a>
+            
+        </nav>
+
+        <!-- ÍCONE DO SITE -->
+        <figure>
+
+            <img src="./imgs/img-icon.png">
+
+        </figure>
+
+    </header>
+
+    <!-- TÍTULO -->
+    <div id="div-title">
+
+        <h1>Banco de Dados</h1>
+        <h2>e seus Conceitos</h2>
+
+    </div>
+
+    <!-- PRIMEIRO CORPO -->
+    <main id="main-first-bd">
+
+        <br>
+
+        <!-- TEXTO SQL / NSQL -->
+        <section class="redes-section">
+
+            <figure class="redes-figure">
+
+                <p class="subtitle-redes">Definição</p>
+                <p class="text-main">Bancos de são conjuntos de arquivos relacionados, normalmente contendo registros sobre pessoas, lugares ou informações em geral.<br><br>Esses conjuntos são coleções organizadas de dados, que podem estar inter-relacionados ou não, com o objetivo de armazenar informações essenciais para empresas.</p>
+                
+                <br>
+                    
+                <p class="subtitle-main">Banco de Dados Relacional</p>
+                <p class="text-main">Um banco de dados relacional é um banco de dados que modela os dados de uma forma que eles sejam percebidos pelo usuário como tabelas, ou mais formalmente relações.<br><br>O termo é aplicado aos próprios dados, quando organizados dessa forma, ou a um Sistema Gerenciador de Banco de Dados Relacional um programa de computador que implementa a abstração.</p>
+                
+                <br>
+
+                <p class="subtitle-main">Banco de Dados Não relacional</p>
+                <p class="text-main">tipo de sistema de gerenciamento de banco de dados que não utiliza a estrutura tabular tradicional dos bancos de dados relacionais.<br><br>Em vez disso, ele se baseia em diferentes formatos de armazenamento para gerenciar e organizar dados, como documentos, chave-valor, colunas ou grafos.</p>
+
+                <br>
+
+                <p class="subtitle-main">Dicionário de Dados</p>
+                <p class="text-main">Um dicionário de dados é uma ferramenta que organiza e documenta as informações sobre os dados utilizados em um sistema de banco de dados ou em um projeto de software. Ele proporciona uma descrição clara dos dados, incluindo:</p>
+
+                <ul>
+
+                    <li class="text-main">Estruturas de Dados: Define entidades (tabelas, por exemplo), atributos (colunas) e tipos de dados (inteiro, texto, data, etc.).</li>
+                    <li class="text-main">Relações: Especifica como diferentes conjuntos de dados se relacionam entre si (chaves primárias e estrangeiras).</li>
+                    <li class="text-main">Regras de Negócio: Detalha as validações e restrições aplicáveis aos dados.</li>
+                    <li class="text-main">Definições e Significados: Oferece descrições de cada dado, seu propósito e uso.</li>
+
+                </ul>
+
+
+            </figure>
+
+            <br>
+            <br>
+            <br>
+
+            <!-- IMAGEM BANCO DE DADOS -->
+            <figure class="redes-figure">
+
+                <img src="./imgs/img-bd.jpg" class="img-redes">
+                <br>
+                <img src="./imgs/img-dicionario.jpg" class="img-redes">
+
+            </figure>
+
+        </section>  
+    </main>
+
+    <!-- TEXTO DER / MER -->
+    <main id="main-second">
+                
+        <figure class="redes-figure">
+
+            <p class="subtitle-redes">Diagramas de Banco de Dados</p>
+            <p class="text-main">Diagramas ER, ou diagramas de Entidade-Relacionamento, são uma ferramenta visual usada para modelar e representar a estrutura de um banco de dados de forma gráfica.<br><br>Os diagramas ER são amplamente utilizados no design de banco de dados para ajudar os desenvolvedores a entender a estrutura de dados e as interações entre as diferentes partes do sistema.</p>
+            
+            <p class="subtitle-redes">DER</p>
+            <p class="text-main">O Diagrama Entidade-Relacionamento é uma representação gráfica que mostra as entidades de um sistema, seus atributos e os relacionamentos entre elas. É uma ferramenta fundamental na modelagem de dados. Aqui estão os seus principais componentes:</p>
+            <ul>
+                        
+                <li class="text-main">Entidades: Representam objetos ou conceitos do mundo real que têm existência independente. São geralmente modeladas como retângulos.</li>
+                <li class="text-main">Atributos: Características das entidades. Podem ser simples, compostos ou deriváveis e são frequentemente representados como elipses conectadas às entidades.</li>
+                <li class="text-main">Cardinalidade: Indica o número de instâncias de uma entidade que podem se relacionar com instâncias de outra entidade.</li>
+                <li class="text-main">Chaves: As chaves primárias identificam de maneira única cada instância de uma entidade, enquanto as chaves estrangeiras referenciam entidades relacionadas.</li>
+                        
+            </ul>
+                    
+            <p class="subtitle-redes">MER</p>
+            <p class="text-main">O Modelo de Entidade-Relacionamento é um conceito mais amplo e abstrato que pode ser usado para descrever a estrutura lógica de um banco de dados. Ele pode incluir o DER como uma de suas representações. No MER, temos:</p>
+
+            <ul>
+                        
+                <li class="text-main">Conceitos de Entidade: Abstrações que representam coisas que queremos armazenar (por exemplo, um cliente, um produto).</li>
+                <li class="text-main">Relacionamentos: Assim como no DER, os relacionamentos descrevem como as entidades interagem.</li>
+                <li class="text-main">Atributos: Fazem parte das definições de entidades e relacionamentos, permitindo que detalhemos suas propriedades.</li>
+                        
+            </ul>
+        
+        </figure>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- IMAGEM EMAIL -->
+        <figure>
+
+            <img src="./imgs/img-mer.png" class="img-redes">
+            <br>
+            <img src="./imgs/img-der.png" class="img-redes">
+
+        </figure>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="footer_div">
+
+            <h3>ChronoTech</h3>
+
+            <p class="footer_p">Site construído pelo técnico em desenvolvimento de sistemas João Francisco Luchtenberg Ventura. Ao lado, as redes sociais da empresa sócia Sesi Senai e o repositório git hub onde o código do site foi publicado.</p>
+
+        </div>
+        <div class="footer_div" id="footer-social-div">
+
+            <h3>Redes Sociais</h3>
+            
+            <figure>
+
+                <a href="https://www.facebook.com/SenaiTijucas/?locale=ro_RO"><img src="./imgs/0img-face.png" class="img-rodape"></a>
+                <a href="https://www.instagram.com/senai.tijucas/"><img src="./imgs/0img-insta.png" class="img-rodape"></a>
+                <a href="https://github.com/FranVen02/SituacaoDeAprendizagem"><img src="./imgs/0img-github.png" id="img-hub"></a>
+
+            </figure>
+
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,407 @@
+    body{
+        background-color: ghostwhite;
+        color:black;
+        font-family:Arial, Helvetica, sans-serif;
+        padding:0;
+        margin:0;
+        height:auto;
+        overflow-x:hidden;
+    }
+    
+    /*           */
+    /* Cabeçalho */
+    /*           */
+
+        /* Gerais */
+    
+        header{
+            background-color:green;
+            height:80px;
+            width:100vw;
+        }header nav{
+            width:80vw;
+            height:80px;
+            float:left;
+        }header nav a{
+            display:inline-block;
+            width:fit-content;
+            margin-top:25px;
+            margin-left:10px;
+            font:normal 1.3rem arial;
+            text-decoration:none;
+            color:white;
+            border-radius:6px;
+            padding:2px;
+        }header nav a:hover{
+            background-color:limegreen;
+            color:black;
+            transition:0.2s;  
+        }header figure{
+            width:20vw;
+            height:80px;
+            margin:0;
+            padding:0;
+            float:right;
+        }header figure img{
+            height:50px;
+            margin:13px 27px 0 0;
+            padding:2px;
+            float:right;
+            background-color:snow;
+            border-radius:3px;
+        }
+
+    /*       */
+    /* Corpo */
+    /*       */
+
+        /* Gerais */
+
+            h1{
+                font:bold 2rem arial;
+                margin-bottom:0;
+            }h2{
+                margin-left:30px;
+                font:normal 1.5rem arial;
+                color:rgb(122, 122, 122);
+                margin-top:0;
+            }h4{
+                float:right;
+                font:normal 1.3rem arial;
+                color:rgb(139, 139, 139);
+                margin: 50px 28vw 0 0;
+            }button{
+                width:100px;
+                height:40px;
+                background-color:rgb(43, 68, 28);
+                color:white;
+                font:normal 18px arial;
+                border:none;
+                border-radius:5px;
+                margin-left:30px;
+                cursor:pointer;
+            }input{
+                height:30px;
+            }
+
+        /*   IDs  */
+
+            #div-title{
+                background-color:rgb(214, 214, 214);
+                height:70px;
+                width:100vw;
+                padding-top:30px;
+            }#main-first{
+                width:100vw;
+                height:1000px;
+                border-top-right-radius:0px;
+                border-top-left-radius:0px;
+                border-bottom-right-radius:50px;
+                border-bottom-left-radius:50px;
+                border:20px;
+                background-color:rgb(214, 214, 214);
+                margin-left:-10px;
+            }#main-first-index{
+                width:100vw;
+                height:650px;
+                border-top-right-radius:0px;
+                border-top-left-radius:0px;
+                border-bottom-right-radius:50px;
+                border-bottom-left-radius:50px;
+                border:20px;
+                background-color:rgb(214, 214, 214);
+                margin-left:-10px;
+            }#main-second{
+                width:100vw;
+                height:950px;
+            }#vid-section{
+                text-align:center;
+                width:100vw;
+                height:350px;
+                margin-top:50px;
+            }#video{
+                border-radius:10px;
+                height:300px;
+                width:600px;
+            }#mapa{
+                margin: 30px 45px 0 0;
+                border:solid 1px lightgray;
+                float:right;
+                border-radius:10px;
+                height:400px;
+                width:40vw;
+            }#video-home{
+                border-radius:10px;
+                height:400px;
+                width:40vw;
+                float:right;
+                margin: 0 40px  0 0;
+            }#logiclinks-section{
+                text-align:center;
+                width:100vw;
+                height:300px;
+                margin-top:50px;
+            }#sort-fig{
+                height:auto;
+                width:100vw;
+            }#flux-fig{
+                height:auto;
+                width:100vw;
+            }#main-first-flux{
+                width:100vw;
+                height:500px;
+                border-top-right-radius:0px;
+                border-top-left-radius:0px;
+                border-bottom-right-radius:50px;
+                border-bottom-left-radius:50px;
+                border:20px;
+                background-color:rgb(214, 214, 214);
+            }#main-first-bd{
+                width:100vw;
+                height:1030px;
+                border-top-right-radius:0px;
+                border-top-left-radius:0px;
+                border-bottom-right-radius:50px;
+                border-bottom-left-radius:50px;
+                border:20px;
+                background-color:rgb(214, 214, 214);
+            }#main-first-redes2{
+                width:100vw;
+                height:1450px;
+                border-top-right-radius:0px;
+                border-top-left-radius:0px;
+                border-bottom-right-radius:50px;
+                border-bottom-left-radius:50px;
+                border:20px;
+                background-color:rgb(214, 214, 214);
+            }
+
+        /* Classes */
+
+            .text-main{
+                font:normal 1.1rem arial;
+                width:45vw;
+                margin: 0 0 13px 30px;
+            }.text-prog{
+                font:normal 18px arial;
+                margin:0;
+            }.subtitle-main{
+                color:#8a8989;
+                font:normal 18px arial;
+                position:relative;
+                top:-20px;
+                margin:0 0 0 30px;
+            }.subtitle-redes{
+                color:#8a8989;
+                font:normal 18px arial;
+                margin:10px 0 0 30px;
+            }.subtitle-main-second{
+                color:#8a8989;
+                font:normal 18px arial;
+                margin:0;
+            }.redes-section{
+                width:100vw;
+                height:520px;
+                float:left;
+                margin-right:150px;
+            }.alg-section{
+                width:100vw;
+                height:300px;
+                float:left;
+                margin-right:150px;
+            }.sort-div{
+                float:left;
+                width:20vw;
+                height:200px;
+                margin-top:60px;
+                margin-right:5vw
+            }.main-section{
+                width:45vw;
+                float:left;
+                margin-top:50px;
+            }.gerar-div{
+                margin-top:-20px;
+            }.prog-div{
+                width:20vw;
+                height:200px;
+                float:left;
+                padding: 20px 6.6vw;;
+            }.logiclinks-button{
+                margin:0;
+            }.redes-figure{
+                float:left;
+                margin-left:10px;
+            }.img-redes{
+                height:300px;
+                width:36vw;
+                border-radius:10px;
+                margin: 60px 0 0 60px;
+            }.prox-pag{
+                display:inline-block;
+                width:fit-content;
+                margin-top:25px;
+                margin-left:20vw;
+                font:normal 1.3rem arial;
+                text-decoration:none;
+                color:black;
+                border-radius:2px;
+                padding:2px;
+            }.prox-pag:hover{
+                background-color:darkgreen;
+                color:white;
+                transition:0.2s;
+            }.img-flux{
+                height:300px;
+                width:30vw;
+                margin: 10px 10px;
+            }.text-flux{
+                font:normal 1.1rem arial;
+                width:80vw;
+                margin: 0 0 13px 30px;
+            }.img-redes2{
+                margin:0;
+                border-radius:10px;
+                height:300px;
+                width:30vw;
+            }.subtitle-redes2{
+                margin:0;
+                font: normal 18px arial;
+                color:#8a8989;
+            }.redes2-figure{
+                width:40vw;
+                float:right;
+            }.redes2-section{
+                width:100vw;
+                height:620px;
+                float:left;
+            }
+
+    /*        */
+    /* Rodapé */
+    /*        */
+
+        /* Gerais */
+
+            footer{
+                width:100vw;
+                height:200px;
+                background-color:rgb(2, 68, 2);
+            }h3{
+                color:white;
+                font:normal 20px arial;
+                margin-left:20px;
+            }
+
+
+        /*   IDs  */
+        
+            #img-hub{
+                width:8vw;
+                position:relative;
+                top:-10px;               
+            }
+        
+        /*   Classes  */
+
+            .footer_div{
+                width:50vw;
+                float:left;
+                height:200px;
+            }.footer_p{
+                width:40vw;
+                margin: 0 10px;
+                color:white;
+                font:normal 16px arial;
+            }.img-rodape{
+                width:10vw;
+            }
+
+        @media (max-width:670px){
+
+            main{
+                height:1000px;
+            }header nav{
+                width:100vw;
+            }header nav a{
+                font: bold 0.8rem arial;
+                margin-right: 3px;
+                margin-left:3px;
+            }header img{
+                display:none
+            }header figure{
+                display:none;
+            }main img{
+                display:none;
+            }main iframe{
+                display:none;
+            }main section{
+                width:100vw;
+                float: left;
+            }.text-main{
+                width:85vw;
+            }.footer-div{
+                width:80w;
+            }#footer-social-div{
+                display:none;
+            }.footer_p{
+                width:80vw;
+            }footer{
+                margin-top:400px;
+            }#video{
+                display:block;
+            }#prog-a{
+                display:none;
+            }
+
+        }@media screen and (min-width:671px) and (max-width:1024px){
+
+            main{
+                height:1000px;
+            }header nav{
+                width:100vw;
+            }header nav a{
+                font: bold 1.2rem arial;
+                margin-right: 3px;
+                margin-left:3px;
+            }header img{
+                display:none
+            }header figure{
+                display:none;
+            }main img{
+                display:none;
+            }main iframe{
+                display:none;
+            }main section{
+                width:100vw;
+                float: left;
+            }.text-main{
+                width:85vw;
+            }.footer-div{
+                width:80w;
+            }#footer-social-div{
+                display:none;
+            }.footer_p{
+                width:80vw;
+            }footer{
+                margin-top:400px;
+            }#video{
+                display:block;
+            }#prog-a{
+                display:none;
+            }
+
+        }@media screen and (min-width:1025px) and (max-width:1250px){
+
+            #main-second{
+                height:1200px;
+            }.eletro-fig{
+                float:right;
+                width:40vw;
+            }.redes-figure{
+                float:left;
+                width:45vw;
+            }#main-first-bd{
+                height:1130px;
+            }
+
+        }
